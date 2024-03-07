@@ -1,0 +1,79 @@
+.chatBubbleInstance {
+  width: 22.9px;
+  height: 17.8px;
+  position: relative;
+}
+.lessons {
+  position: relative;
+  font-weight: 500;
+}
+.lineConnector {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+}
+.teacherBotMessage {
+  width: 69.8px;
+  height: 2px;
+  position: relative;
+  border-top: 2.2px solid var(--color-lightslategray-200);
+  box-sizing: border-box;
+}
+.component36 {
+  height: 67px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px 0;
+  z-index: 7;
+}
+.userMessageIcon {
+  width: 24.6px;
+  height: 24.6px;
+}
+.chat,
+.chatBox,
+.userMessageIcon {
+  position: relative;
+}
+.chat {
+  font-weight: 600;
+}
+.chatBox {
+  margin-top: -1px;
+  margin-bottom: -1px;
+  width: 39.7px;
+  height: 2px;
+  border-top: 2.2px solid var(--color-dodgerblue-100);
+  box-sizing: border-box;
+}
+.component36Parent,
+.component37 {
+  display: flex;
+  box-sizing: border-box;
+}
+.component37 {
+  height: 74px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  gap: 14px 0;
+  z-index: 1;
+  color: var(--color-dodgerblue-100);
+}
+.component36Parent {
+  width: 285px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-mid-1);
+  color: var(--color-lightslategray-100);
+  font-family: var(--font-inter);
+}

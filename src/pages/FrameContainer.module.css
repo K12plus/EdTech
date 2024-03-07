@@ -1,0 +1,36 @@
+.addASubheading1,
+.addASubheading3 {
+  height: 607.2px;
+  width: 682px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.addASubheading3 {
+  height: 665px;
+  width: 817px;
+}
+.frameContainer {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-62xl) 38px var(--padding-62xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: 0 32px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1575px) {
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .frameContainer {
+    gap: 0 16px;
+  }
+}

@@ -1,0 +1,171 @@
+.fourthText,
+.thirdEllipseShape {
+  position: absolute;
+  border-radius: 50%;
+}
+.thirdEllipseShape {
+  top: -0.3px;
+  left: 0.3px;
+  width: 68.4px;
+  height: 68.4px;
+  object-fit: cover;
+  z-index: 7;
+}
+.fourthText {
+  top: 54.4px;
+  left: 49.6px;
+  background-color: var(--color-mediumseagreen);
+  border: 0 solid var(--color-white);
+  box-sizing: border-box;
+  width: 12.3px;
+  height: 12.3px;
+  z-index: 8;
+}
+.secondEllipseShape {
+  align-self: stretch;
+  height: 68px;
+  position: relative;
+}
+.emptyFrame,
+.firstLessonText {
+  display: flex;
+  align-items: center;
+}
+.emptyFrame {
+  width: 35.6px;
+  position: relative;
+  justify-content: center;
+  z-index: 7;
+}
+.firstLessonText {
+  width: 68px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 13px 0;
+}
+.annaJohnson {
+  position: relative;
+  font-weight: 500;
+  z-index: 7;
+}
+.botEmojisFrameChild {
+  height: 86.2px;
+  width: 320.2px;
+  position: relative;
+  border-radius: 0 13.68px 13.68px 13.68px;
+  background-color: var(--color-mintcream);
+  box-shadow: 0 2.7px 5.47px rgba(0, 0, 0, 0.02);
+  border: 1.4px solid var(--color-darkseagreen);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.wowICant {
+  width: 290.1px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  z-index: 8;
+}
+.botEmojiSusan1,
+.botEmojiSusan2,
+.botEmojiSusan3 {
+  height: 19.2px;
+  width: 19.8px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+}
+.botEmojiSusan1Parent {
+  margin: 0 !important;
+  position: absolute;
+  bottom: -0.2px;
+  left: 105px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 0 5px;
+  z-index: 9;
+}
+.teacherBotText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 var(--padding-9xs);
+  position: relative;
+}
+.annaText,
+.botEmojisFrame {
+  align-self: stretch;
+  display: flex;
+}
+.botEmojisFrame {
+  border-radius: 0 13.68px 13.68px 13.68px;
+  background-color: var(--color-mintcream);
+  box-shadow: 0 2.7px 5.47px rgba(0, 0, 0, 0.02);
+  border: 1.4px solid var(--color-darkseagreen);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-smi) var(--padding-5xs)
+    var(--padding-sm);
+  z-index: 7;
+  font-size: var(--font-size-base-4);
+}
+.annaText {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 12px 0;
+}
+.euclideanHyperbolicGroup,
+.fifthFrame,
+.hyperbolicEllipticalFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.fifthFrame {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  min-width: 209px;
+  text-align: left;
+  font-size: var(--font-size-base-1);
+}
+.euclideanHyperbolicGroup,
+.hyperbolicEllipticalFrame {
+  flex-direction: row;
+}
+.hyperbolicEllipticalFrame {
+  flex: 1;
+  gap: 0 18px;
+}
+.euclideanHyperbolicGroup {
+  align-self: stretch;
+  padding: 0 var(--padding-41xl) 0 var(--padding-5xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-sm-7);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 825px) {
+  .euclideanHyperbolicGroup {
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hyperbolicEllipticalFrame {
+    flex-wrap: wrap;
+  }
+}
